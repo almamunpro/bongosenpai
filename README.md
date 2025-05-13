@@ -60,3 +60,46 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # bongosenpai
+
+## ✅ Project Checklist: E-commerce Site
+
+### 🔧 Setup & Configuration
+- [x] Install Laravel
+- [x] Install & configure Tailwind CSS
+- [ ] Connect to MySQL database
+- [ ] Create basic layout with Tailwind
+
+### 🔐 Authentication
+- [ ] Install Laravel Breeze
+- [ ] Create Login / Register / Logout
+- [ ] User dashboard view
+
+### 🛒 Products & Categories
+- [ ] Create models and migrations
+- [ ] Build admin CRUD (product/category)
+- [ ] Handle image upload for products
+
+### 🧾 Frontend: Shopping
+- [ ] Home page with product listing
+- [ ] Product details page
+- [ ] Add to cart functionality
+
+### 🛍️ Cart & Checkout
+- [ ] Cart page with update/remove
+- [ ] Checkout page (Cash on Delivery)
+- [ ] Store orders to DB
+
+### 👤 User Area
+- [ ] Show user orders in dashboard
+- [ ] View order details
+
+### 🧑‍💼 Admin Area
+- [ ] Admin login/middleware
+- [ ] View all orders
+- [ ] Change order status
+
+### 🎨 Polish & Finish
+- [ ] Add responsive design
+- [ ] Add validation & error messages
+- [ ] Final testing
+
