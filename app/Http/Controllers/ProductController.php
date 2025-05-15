@@ -1,9 +1,26 @@
+<?php
+
+namespace App\Http\Controllers;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
+
 
 class ProductController extends Controller
 {
+    public function index()
+{
+    $products = Product::all();
+    return view('index', compact('products'));
+}
+
     // Show form to add a new product
+    public function shop()
+{
+    $products = Product::all(); // Or paginate
+    return view('shop', compact('products'));
+}
+
     public function create()
     {
         return view('products.create');
@@ -39,9 +56,5 @@ class ProductController extends Controller
     }
 
     // Show all products (for customers)
-    public function index()
-    {
-        $products = Product::latest()->get();
-        return view('products.index', compact('products'));
-    }
+
 }
